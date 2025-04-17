@@ -32,6 +32,8 @@ SemaphoreHandle_t freqMutex;  // Mutex to protect F1/F2 access
 
 bool ledToggleState = false;  // Button-controlled LED
 
+// Task handles stored for potential future control or debugging.
+// Not strictly required if no dynamic task management is used.
 TaskHandle_t Task1Handle, Task2Handle, Task3Handle, Task4Handle, Task5Handle, TaskButtonHandle;
 
 // Utility Function: Generate one waveform sequence for task 1/2
