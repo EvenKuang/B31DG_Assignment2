@@ -76,25 +76,6 @@ Task #4  0/1000 violations
 Task #5  0/2000 violations
 ```
 
-+----------------+          +----------------+
-|  signal A      | ----->   |                |
-|  generate A    |          |                |
-+----------------+          |                |
-                            |                |
-+----------------+          |                |
-|  signal B      | ----->   | measure        | -->  FreqA + FreqB
-|  generate B    |          | monitorFreq    |
-+----------------+          +--------+-------+
-                                     |
-                                     v
-                           +----------------------+
-                           | ledIndicatorTask     |
-                           +----------------------+
-
-+-------------------------+
-| buttonToggleTask        |
-+-------------------------+
-
 ---
 
 ## Oscilloscope Verification
