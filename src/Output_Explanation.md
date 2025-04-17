@@ -94,12 +94,12 @@ This means all tasks met their deadlines. There were **zero violations**, indica
 ## Summary: Which Scheduler to Use?
 
 | Feature              | Cyclic Executive     | FreeRTOS              |
-|----------------------|----------------------|------------------------|
-| Precise Timing       | ✅ Yes                | ✅ Yes                 |
-| Code Simplicity      | 🟢 Simple but rigid   | 🟠 More modular        |
-| Scalability          | ❌ Hard to extend     | ✅ Easy to add tasks   |
-| Real-time Accuracy   | ✅ Manually enforced  | ✅ System enforced     |
-| Button Responsiveness| ❌ Slight delay       | ✅ Faster response     |
+|----------------------|----------------------|---------------------|
+| Precise Timing       |  Yes                |  Yes                 |
+| Code Simplicity      |  Simple but rigid   |  More modular        |
+| Scalability          |  Hard to extend     |  Easy to add tasks   |
+| Real-time Accuracy   |  Manually enforced  |  System enforced     |
+| Button Responsiveness|  Slight delay       |  Faster response     |
 
 ---
 
